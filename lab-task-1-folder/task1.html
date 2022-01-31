@@ -30,7 +30,7 @@
         <input type="text" id="city" name="city" value=""><br>
 
         <label for="states">States</label>
-        <input list="states" name="state" value="Select a State">
+        <input list="states" name="state" value="">
         <datalist id="states">
             <option value="Farmgate">
             <option value="Dhanmondi">
@@ -42,7 +42,7 @@
         <input type="text" id="zipcode" name="zipcode" value=""><br>
 
         <label for="country">Country</label>
-        <input list="country" name="country" value="Select a Country">
+        <input list="country" name="country" value="">
         <datalist id="country">
             <option value="Bangladesh">
             <option value="India">
@@ -89,10 +89,69 @@
         <input type="text" id="rdmonth" name="rdmonth" value="">
 
         <h3>Honorarium and Memorial Donation Information</h3>
+        <label for="dfor">I  like to make this donation</label>
         <input type="checkbox" id="damount" name="damount" value="money">
         <label for="damount"> To Honor</label><br>
         <input type="checkbox" id="damount" name="damount" value="money">
         <label for="damount"> In Memory of</label><br>
+
+        <label for="hname">Name</label>
+        <input type="text" id="hname" name="hname" value=""><br>
+        <label for="hadto">Acknowledge Donation to</label>
+        <input type="text" id="hadto" name="hadto" value=""><br>
+        <label for="haddress">Address</label>
+        <input type="text" id="haddress" name="haddress" value=""><br>
+        <label for="hcity">City</label>
+        <input type="text" id="hcity" name="hcity" value=""><br>
+        <label for="hstate">State</label>
+        <input list="states" name="state" value="">
+        <datalist id="hstates">
+            <option value="Farmgate">
+            <option value="Dhanmondi">
+            <option value="Gulshan">
+            <option value="Banani">
+        </datalist><br>
+        <label for="hzip">Zip</label>
+        <input type="text" id="hzip" name="hzip" value=""><br>
+
+        <h3>Additional Information</h3>
+        <label for="ainfo">Please enter your name, company or organization as you would like it to appear in our publications:</label><br>
+        <label for="aname">Name</label>
+        <input type="text" id="aname" name="aname" value=""><br>
+
+        <input type="checkbox" id="ainfo" name="aano">
+        <label for="ainfo">I would like my gift to remain anonymous.</label><br>
+
+        <input type="checkbox" id="ainfo" name="mgift">
+        <label for="ainfo">My employer offers a matching gift program. I will mail the matching gift form.</label><br>
+        <input type="checkbox" id="ainfo" name="mnotmail">
+        <label for="ainfo">Please save the cost of acknowledging this gift by not mailing a thank you letter.</label><br>
+
+        <label for="acomment">Comments</label>
+        <input type="text" id="acomment" name="acomment" value=""><br>
+
+        <label for="Ainfo">How may we contact you?</label>
+        <input type="checkbox" id="acemail" name="acemail">
+        <label for="acemail">E-mail</label><br>
+        <input type="checkbox" id="acpmail" name="acpmail">
+        <label for="acpmail">Postal Mail</label><br>
+        <input type="checkbox" id="actele" name="actele">
+        <label for="actele">Telephone</label><br>
+        <input type="checkbox" id="acfax" name="acfax">
+        <label for="acfax">Fax</label><br>
+        <label for="aainfo">I would like to receive newsletters and information about special events by:</label><br>
+        <input type="checkbox" id="aaemail" name="aaemail">
+        <label for="aaemail">E-mail</label><br>
+        <input type="checkbox" id="aapmail" name="aapmail">
+        <label for="aapmail">Postal Mail</label>
+
+        <input type="checkbox" id="aavinfo" name="aavinfo">
+        <label for="aavinfo">I would like information about volunteering with the </label><br>
+        <button type="button">Reset</button>
+        <button type="button">Continue</button><br>
+        <label for="aabottom">Donate online with confidence. You are on a secure server.<br>If you have any problems or questions, please contact <a href="support_url">support.</a></label>
+
+
     </form>
 </body>
 
