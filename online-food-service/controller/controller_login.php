@@ -12,7 +12,7 @@ if (isset($_POST['login'])) {
         $name = $_POST['username'];
         $remme = false;
 
-        if (isset($_POST['remme']) && count($_POST['remme']) > 0) {
+        if (isset($_POST['remme'])) {
             $remme = true;
         }
 

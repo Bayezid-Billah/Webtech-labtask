@@ -1,4 +1,5 @@
 <?php require("../view/view_header.php"); ?>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
 <?php
 if(!isset($_SESSION["username"])){
     header("location:view_login.php");
